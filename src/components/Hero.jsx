@@ -5,7 +5,7 @@ export const Hero = () => {
     <div className="hero-container">
       <img
         className="hero-img"
-        src="/photo-grid.png"
+        src="/images/photo-grid.png"
         alt="lots of photo with some bnb expirience"
       />
       <h2 className="hero-title">Online Experience</h2>
