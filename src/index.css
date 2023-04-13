@@ -16,6 +16,13 @@ body {
   max-width: 550px;
   margin: auto;
 }
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
 .header-container {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -43,6 +50,50 @@ body {
 .hero-info {
   padding-left: 32px;
   font-weight: 300;
+  padding-bottom: 40px;
+}
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  position: relative;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 @media (min-width: 400px) {
   .hero-img {
